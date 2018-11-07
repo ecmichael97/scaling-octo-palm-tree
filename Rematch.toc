@@ -1,0 +1,6 @@
+## Interface: 80000
+## Title: Rematch
+## Version: 0.0
+## Notes: Post-Game information and statistics tailored for PvP Matches
+## Author: yeivapebutnp
+
