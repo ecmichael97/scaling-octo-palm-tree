@@ -3,8 +3,9 @@ RematchAddon = { }
 
 local combat_log = {}
 
-local rematch_frame = Rematch_Frame
-rematch_frame.show()
+function welcome()
+	
+	message(string.format("%s\nPost-Game information and statistics tailored for PvP Matches\nCurrently in development", addonName))
 
 
-message(string.format("%s\nPost-Game information and statistics tailored for PvP Matches\nCurrently in development", addonName))
+end

@@ -3,10 +3,24 @@
 
 	<Script file="Rematch.lua"/>
 	
-		<Frame name="Rematch_Frame" parent="UIParent">
+		<Frame name="Rematch_Frame" hidden="false" parent="UIParent" inherits="BasicFrameTemplate">
 			<Size>
-				<AbsDimension x=100 y=100 />
+				<AbsDimension x="200" y="400" />
 			</Size>
+			
+			<Anchors>
+				<Anchor point="CENTER"/>
+			</Anchors>
+			<Scripts>
+				<OnLoad>
+					Rematch_Frame:Show();
+					welcome();
+				
+				</OnLoad>
+			
+			</Scripts>
+			
+			
 		</Frame>
 
 </Ui>
