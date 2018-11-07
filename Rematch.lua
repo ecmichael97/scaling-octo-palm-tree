@@ -1,12 +1,11 @@
 local addonName, addonTable = ...;
 
 Rematch = LibStub("AceAddon-3.0"):NewAddon("Rematch", "AceEvent-3.0")
-Rematch:RegisterEvent("COMBAT_LOG_EVENT")
 Rematch_Frame = LibStub("AceGUI-3.0")
 local combat_log = {}
 
 function Rematch:OnInitialize()
-
+Rematch:RegisterEvent("COMBAT_LOG_EVENT")
 
 end
 
