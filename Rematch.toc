@@ -4,7 +4,7 @@
 ## Notes: Post-Game information and statistics tailored for PvP Matches
 ## Author: yeivapebutnp
 
-embeds.xml
+
 Rematch.xml
 Rematch.lua
 
