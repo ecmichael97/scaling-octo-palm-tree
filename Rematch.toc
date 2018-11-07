@@ -7,5 +7,4 @@
 embeds.xml
 Rematch.xml
 Rematch.lua
-hello.lua
 
