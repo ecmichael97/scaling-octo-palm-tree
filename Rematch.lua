@@ -1,3 +1,10 @@
 local addonName, addonTable = ...;
+RematchAddon = { }
 
-message(string.format("%snPost-Game information and statistics tailored for PvP Matches\nCurrently in development", addonName))
+local combat_log = {}
+
+local rematch_frame = Rematch_Frame
+rematch_frame.show()
+
+
+message(string.format("%s\nPost-Game information and statistics tailored for PvP Matches\nCurrently in development", addonName))
